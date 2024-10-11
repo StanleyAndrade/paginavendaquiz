@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="start-screen">
+            <h2>Deixa a gente entender o que você precisa ;)</h2>
+            <h4>Não demora nem 2 minutinhos!</h4><br>
+            <button id="start-btn">Vamos começar!</button>
+        </div>
+        <div id="quiz" style="display: none;">
+            <h2 id="question">Pergunta do Quiz</h2>
+            <div class="answers">
+                <div class="answer" id="a_text" data-answer="a">Resposta A</div>
+                <div class="answer" id="b_text" data-answer="b">Resposta B</div>
+                <div class="answer" id="c_text" data-answer="c">Resposta C</div>
+                <div class="answer" id="d_text" data-answer="d">Resposta D</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+</html>
