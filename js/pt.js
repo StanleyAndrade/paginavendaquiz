@@ -141,7 +141,6 @@ answerEls.forEach(answerEl => {
             loadQuiz();
         } else {
             quiz.innerHTML = `
-                
                 <iframe width="540" height="555" src="https://64a50b06.sibforms.com/serve/MUIFAGG0ybEoqzWvGapnuPmSmuEFM7K-mVAO0BQLAlz6o--ncCcfPFfHKtKkBkvSrQJ52r6XGOLXB-agQI-y1Qa5a4pm4q05nAnlj_Qo8kWiRluajGT-czKjJq_6XmQgc5f16bDYn1YufPC1y7bYaEAqdMm72QK8fp9g-Jvb0ZEC8WPi2xtjokjlzhPtLtaQI7oaMNR9DJbbheh1" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
             `;
         }
